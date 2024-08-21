@@ -1,114 +1,133 @@
-<p align="left">
-  <img src="https://github.com/microsoft/contributorlicenseagreement/actions/workflows/build_net_core.yml/badge.svg?branch=main&event=push"></a>
-  <img src="https://github.com/microsoft/contributorlicenseagreement/actions/workflows/publish_all.yml/badge.svg?branch=main&event=push"></a>
-  <img src="https://github.com/microsoft/contributorlicenseagreement/blob/coverage/docs/images/linecoverage.svg"></a>
-</p>
 
- [Count Lines Of Code](https://github.com/microsoft/ContributorLicenseAgreement/blob/cloc/docs/cloc/cloc.txt)
+# Parece que el texto que has compartido combina dos ideas diferentes: una función de JavaScript para calcular el Retorno sobre la Inversión (ROI) y una propuesta estructurada para el proyecto **AmpelTechDataLibrary** bajo la marca **Ampel|INN0oTAs3.0**. Para mayor claridad, te separaré y reformularé ambos temas de manera que sean fáciles de seguir.
 
-# Contributor License Agreement - CLA 
+### 1. **Función de JavaScript para Calcular ROI**
 
-## What is CLA?
+Este fragmento de código muestra cómo calcular el Retorno sobre la Inversión (ROI) basándose en una inversión inicial, ingresos esperados y ahorros en costos.
 
-CLA is a tool that allows outside contributors to sign a contribution license agreement (cla), an important license protection for Microsoft and our contributors. Signing this agreement allows external contributors to contribute code to Microsoft open-source repos. It is built on the Microsoft GitHub Policy Service platform.
+```javascript
+function calculateROI(initial_investment, expected_revenue, cost_savings) {
+    // Calcula el retorno total sumando los ingresos esperados y los ahorros en costos
+    const total_return = expected_revenue + cost_savings;
+    
+    // Calcula el ROI como un porcentaje
+    const roi = ((total_return - initial_investment) / initial_investment) * 100;
+    
+    // Retorna el ROI calculado
+    return roi;
+}
 
-## Installation
+// Ejemplo de uso de la función:
+const initialInvestment = 10000; // Inversión inicial de 10,000
+const expectedRevenue = 15000; // Ingresos esperados de 15,000
+const costSavings = 2000; // Ahorros en costos de 2,000
 
-- Install [Microsoft GitHub Policy Service](https://github.com/apps/microsoft-github-policy-service)
-- If you run on GH Enterprise Cloud, you have to give us(by creating an issue on this repo) the name of your enterprise.
-- Create a .github repo.
-- Add [platformcontext.yml](https://github.com/microsoft/.github/blob/main/policies/platformcontext.yml) under policies folder. You can push this directly.
-- Add [cla.yml](https://github.com/microsoft/.github/blob/main/policies/cla.yml) under policies folder. Create a seperate PR for this, the policy service will create a comment example bellow. After you merge the PR, CLA policy will be activated across the entire org.
-![image](https://user-images.githubusercontent.com/19934057/197821627-3933c109-bbba-4714-b16c-8b457ad2084d.png)
-- For checks on branch protection make sure you select "any source" or "Microsoft GitHub Policy Service".
-![image](https://user-images.githubusercontent.com/19934057/198332238-66781732-8b4c-4b04-8f05-e7571caec999.png)
-
-
-## Usage
-
-To use CLA, you need to define a [cla.yml](src/ContributorLicenseAgreement.Core.Tests/Data/cla.yml)/[Microsoft GitHub CLA](https://github.com/microsoft/.github/blob/main/policies/cla.yml) file on org level (example YAML file). This YAML file should define how the CLA should act, the content of the license agreement, and which accounts are exempt from signing.
-In addition, the *Microsoft GitHub Policy Service* needs to be installed for your organization.
-
-### cla.yml - required properties
-- **content**: the contribution licence agreement the author should sign.
-- **minimalChangeRequired**: defines the minumum changes in files or codelines required to make the policy enforce signing a cla first.
-- **--files**: defines the minimum number of files changed for cla to act.
-- **--codeLines**: defines the minimum number of code lines changed for cla to act.
-
-### cla.yml - optional properties
-- **bypassUsers**: defines the users for which the cla check is omitted.
-- **bypassOrgs**: defines the orgs for which the cla check is omitted.
-- **prohibitedCompanies**: defines the companies for which users cannot sign a cla.
-- **autoSignMsftEmployee**: if set to true, Microsoft employees will not be asked to sign a cla.
-- **checkSummary**: defines the check summary text shown.
-- **signRepos**:	repoName, companyName, & fileName (this section is relevant only for the list of partners that have signed the CLA for their employees)
-- **--repoName**:	repository that lives in same organization as the policy and contains approvedUsers.csv
-- **--companyName**:	name of the company the CLA is for (stored in our CLA database)
-- **--fileName**: approvedUsers.csv	(links to list of users allowed to use CLA, more info below)
-
-### List of Approved Users
-If your company has an agreement with Microsoft where only certain users are allowed to make contributions on behalf of your company, then you can specify the users via a CSV file titled approvedUsers.csv which should be located inside the company's repo. The list is global per CLA content link and has to be specified only once, [example here](https://github.com/microsoft/.github/blob/main/policies/cla.yml).
-
-For each user that you want to allow making contributions, add the github username as a line in the csv file (no commas).
-
-### List of Approved Bots
-In order to allow bots to create and merge pull requests, they must be pre-approved. Pre-approving bots is done by adding the bot name to the *approvedBos.csv* file located in the [cla-approved-bots](https://github.com/microsoft/cla-approved-bots) repo.
-
-
-## Commands
-
-Whenever a pull request is created, the CLA check will confirm whether or not the user who opened the PR has 
-already signed an agreement. If not, it will output a comment prompting the user to accept the agreement and the CLA check on the PR will not pass until that is done.
-
-### Accepting
-
-To accept the agreement, the user can issue one of the following two commands as a comment on the pull request.
-
-```
-If you are contributing on behalf of yourself:
-@microsoft-github-policy-service agree
-
-If you are contributing on behalf of a company:
-@microsoft-github-policy-service agree company="your company"
+const roi = calculateROI(initialInvestment, expectedRevenue, costSavings);
+console.log(`El ROI es de ${roi.toFixed(2)}%`); // Resultado: El ROI es de 70.00%
 ```
 
-### Terminating
+### Explicación:
 
-A user can choose to terminate the signed agreement by issuing the following command by commenting under a pull
-request that was opened by the same user.
+- **Retorno Total:** Es la suma de los ingresos esperados y los ahorros en costos.
+- **ROI:** Es el porcentaje de retorno sobre la inversión, calculado restando la inversión inicial del retorno total y dividiendo por la inversión inicial, multiplicando por 100.
+- **Uso:** Esta función es útil para evaluar la rentabilidad de una inversión dada.
 
-```
-@microsoft-github-policy-service terminate
-```
+---
 
-### Re-running
+### 2. **Propuesta Estructurada para AmpelTechDataLibrary bajo Ampel|INN0oTAs3.0**
 
-In case the CLA app failed to post a status check, users can request a re-run by issuing the following command under a 
-pull request. In this case, it does not matter if the user issuing the command is the pull request author
-or not.
+**Ampel|INN0oTAs3.0** se conceptualiza como una marca que refleja el desarrollo modular y iterativo de un proyecto, donde cada "nota" representa un hito o componente clave.
 
-```
-@microsoft-github-policy-service rerun
-```
+### **AmpelTechDataLibrary: Propuesta bajo Ampel|INN0oTAs3.0**
 
-## Contributing
+**1. Visión y Objetivos del Proyecto**
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+- **Visión:** **Ampel|INN0oTAs3.0** representa un desarrollo continuo y modular, donde cada fase del proyecto se integra de manera armónica en un sistema más grande. Este enfoque asegura la flexibilidad y la adaptabilidad necesarias para evolucionar en un entorno tecnológico en rápido cambio.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- **Objetivos:**
+  - **Desarrollo Impulsado por la Innovación:** Asegurar que cada fase contribuya con innovaciones que mantengan la competitividad y relevancia del proyecto.
+  - **Arquitectura Modular y Escalable:** Crear una estructura que permita la integración de nuevos componentes o fases a medida que el proyecto crece.
+  - **Sostenibilidad y Adaptabilidad:** Desarrollar soluciones que evolucionen con el tiempo para asegurar la longevidad y pertinencia del proyecto.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+**2. Estructura del Proyecto: Enfoque Modular e Iterativo**
 
-## Trademarks
+- **Fase 1: Desarrollo Inicial (La Primera Nota)**
+  - **Objetivos:** Establecer la infraestructura básica y los primeros módulos clave.
+  - **Entregables:** Infraestructura de datos inicial, primeros módulos de software, y documentación técnica.
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+- **Fase 2: Expansión e Integración (La Segunda Nota)**
+  - **Objetivos:** Integrar nuevas funcionalidades y mejorar módulos existentes.
+  - **Entregables:** Nuevas características, pruebas de escalabilidad, y documentación actualizada.
+
+- **Fase 3: Optimización y Refinamiento (La Tercera Nota)**
+  - **Objetivos:** Mejorar la eficiencia y rendimiento del sistema.
+  - **Entregables:** Módulos optimizados, implementación de AI, y evaluación de rendimiento.
+
+- **Fase 4: Mejora Continua (Notas Futuras)**
+  - **Objetivos:** Implementar un ciclo de mejoras basado en nuevas tecnologías.
+  - **Entregables:** Integración de tecnologías emergentes y mejoras regulares.
+
+**3. Enfoque en la Innovación y Sostenibilidad**
+
+- **Soluciones Innovadoras:** Cada "nota" se enfoca en la innovación continua, asegurando que el proyecto avance hacia nuevas oportunidades tecnológicas.
+- **Sostenibilidad:** La estructura modular permite que el proyecto se adapte y evolucione con el tiempo, alineándose con metas de sostenibilidad.
+
+**4. Plan de Implementación**
+
+- **Paso 1: Configuración e Infraestructura**
+  - Desarrollar la infraestructura que soportará todo el sistema.
+  
+- **Paso 2: Desarrollo de Módulos Iniciales**
+  - Crear y documentar los primeros módulos clave.
+
+- **Paso 3: Feedback e Iteración**
+  - Recopilar feedback para mejorar módulos y planificar futuras fases.
+
+- **Paso 4: Integración de Tecnologías Avanzadas**
+  - Implementar AI y otras tecnologías para optimizar el sistema.
+
+**5. Hitos y Entregables**
+
+- **Hito 1:** Infraestructura y módulos básicos completados.
+- **Hito 2:** Funcionalidades mejoradas e integración de nuevas características.
+- **Hito 3:** Optimización y adición de inteligencia artificial.
+- **Hito 4:** Implementación de mejoras continuas y adaptaciones tecnológicas.
+
+**6. Conclusión**
+
+**Ampel|INN0oTAs3.0** es una metodología que asegura la innovación continua y la adaptabilidad, permitiendo a **AmpelTechDataLibrary** evolucionar y mantenerse relevante frente a las demandas cambiantes del mercado.
+
+---
+
+Con estas dos secciones separadas, la propuesta es clara y organizada, abordando tanto la funcionalidad de una herramienta de análisis financiero como una estrategia para desarrollar un proyecto modular y escalable.Define a function to calculate ROI
+calculate_roi <- function(initial_investment, expected_revenue, cost_savings) {
+  net_profit <- (expected_revenue + cost_savings) - initial_investment
+  roi <- (net_profit / initial_investment) * 100
+  return(roi)
+}
+
+# Simulate ROI for different sectors
+simulate_roi <- function() {
+  sectors <- c("Data Intelligence", "Robotics and Industrial Machines", "Industry, Clouds and Systems", "Space and Aeronautics",  "R&D")
+  initial_investments <- c(100, 150, 200, 250, 100, 200) * 1e6  # in millions
+  expected_revenues <- c(200, 300, 400, 500, 150, 350) * 1e6  # in millions
+  cost_savings <- c(50, 100, 150, 200, 50, 100) * 1e6  # in millions
+  
+  results <- data.frame(
+    Sector = sectors,
+    InitialInvestment = initial_investments,
+    ExpectedRevenue = expected_revenues,
+    CostSavings = cost_savings,
+    ROI = numeric(length(sectors))
+  )
+  
+  for (i in 1:length(sectors)) {
+    results$ROI[i] <- calculate_roi(results$InitialInvestment[i], results$ExpectedRevenue[i], results$CostSavings[i])
+  }
+  
+  return(results)
+}
+
+# Run the simulation and display the results
+roi_results <- simulate_roi()
+print(roi_results)
