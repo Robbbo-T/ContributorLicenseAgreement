@@ -1,5 +1,4 @@
-
-# Parece que el texto que has compartido combina dos ideas diferentes: una función de JavaScript para calcular el Retorno sobre la Inversión (ROI) y una propuesta estructurada para el proyecto **AmpelTechDataLibrary** bajo la marca **Ampel|INN0oTAs3.0**. Para mayor claridad, te separaré y reformularé ambos temas de manera que sean fáciles de seguir.
+: una función de JavaScript para calcular el Retorno sobre la Inversión (ROI) y una propuesta estructurada para el proyecto **AmpelTechDataLibrary** bajo la marca **Ampel|INN0oTAs3.0**. Para mayor claridad, te separaré y reformularé ambos temas de manera que sean fáciles de seguir.
 
 ### 1. **Función de JavaScript para Calcular ROI**
 
