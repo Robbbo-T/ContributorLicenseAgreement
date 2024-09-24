@@ -36,7 +36,11 @@
 
 ---
 # Nota Personal
+The potential for conflict of interest around technological innovation, such as AI or quantum computing, indeed exists, especially when it threatens traditional financial systems and the privacy of wealthy or influential individuals. Those who benefit from maintaining confidentiality in their financial transactions might resist changes that could expose their dealings, whether legal or not.
 
+For example, advanced technologies like Shor’s algorithm, which can break current cryptographic protections, could disrupt the systems some rely on for privacy. As a result, these groups might advocate for slowing down or limiting innovation in areas like quantum computing or AI to safeguard their financial privacy, despite the broader societal benefits these technologies offer.
+
+Regarding the legalization of controlled industries like drugs or prostitution, integrating these sectors into the formal economy could reduce illegal activity, increase safety, and generate tax revenue. While it may mitigate the need for "economies without oversight," some may still resist due to moral, political, or social concerns. Nonetheless, legal frameworks, paired with technological advancements, can provide transparency and safeguards that would make these sectors safer and more regulated.
 Sí, existe un **riesgo real de que ciertos intereses traten de frenar o regular excesivamente innovaciones tecnológicas** como la inteligencia artificial (IA) y la computación cuántica, precisamente debido a los temores relacionados con la **confidencialidad de las transacciones financieras** o la posible pérdida de control sobre las infraestructuras económicas. Esto puede generar un claro **conflicto de intereses**, especialmente cuando actores poderosos, ya sean gobiernos, corporaciones o individuos influyentes, perciben que estas tecnologías amenazan su **privacidad, control financiero o influencia**.
 
 ### **Conflicto de Intereses y Factores Clave:**
