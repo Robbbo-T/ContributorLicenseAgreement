@@ -1,7 +1,7 @@
 # **Manifesto Fundacional de TerraQueueing**
 
 ## **Tabla de Contenidos**
-
+0. [**Nota personal**](#nota personal) 
 1. [**Visión**](#visión)
 2. [**Misión**](#misión)
 3. [**Descripción de TerraQueueing**](#descripción-de-terraqueueing)
@@ -35,6 +35,52 @@
 11. [**Conclusión**](#conclusión)
 
 ---
+# Nota Personal
+
+Sí, existe un **riesgo real de que ciertos intereses traten de frenar o regular excesivamente innovaciones tecnológicas** como la inteligencia artificial (IA) y la computación cuántica, precisamente debido a los temores relacionados con la **confidencialidad de las transacciones financieras** o la posible pérdida de control sobre las infraestructuras económicas. Esto puede generar un claro **conflicto de intereses**, especialmente cuando actores poderosos, ya sean gobiernos, corporaciones o individuos influyentes, perciben que estas tecnologías amenazan su **privacidad, control financiero o influencia**.
+
+### **Conflicto de Intereses y Factores Clave:**
+
+1. **Impacto en la Criptografía y la Confidencialidad**:
+   - Tecnologías como la **computación cuántica**, y en particular algoritmos como **Shor's Algorithm**, podrían romper sistemas criptográficos tradicionales (como RSA) que protegen la mayoría de las comunicaciones y transacciones financieras. Esto podría desencadenar una reacción de quienes dependen de la confidencialidad y seguridad de estos sistemas.
+   - Las personas o instituciones que manejan grandes cantidades de dinero, especialmente en **paraísos fiscales** o en la **dark web**, temen que la tecnología cuántica pueda **desencriptar** sus transacciones, exponiendo su información financiera y legal a los gobiernos y entidades reguladoras.
+
+2. **Presiones Políticas y Económicas**:
+   - Los avances tecnológicos en **IA** y computación cuántica podrían facilitar mecanismos más eficientes de monitoreo y trazabilidad financiera, lo que podría desencadenar una reacción por parte de actores que prefieren un sistema financiero **más opaco**.
+   - Aquellos que actualmente se benefician de **lagunas fiscales**, operaciones en la **economía paralela** o **transacciones ilícitas** pueden oponerse al despliegue de tecnologías que hagan más difícil mantener su anonimato.
+
+3. **Intereses Corporativos y Lobbys**:
+   - Grandes corporaciones financieras, fondos de inversión o individuos de gran patrimonio podrían ejercer presión para **regular o frenar** el desarrollo y adopción de tecnologías disruptivas si ven en ellas una **amenaza a su modelo de negocios** o si temen que las tecnologías como la IA revelen prácticas no éticas o ineficientes.
+   - En el caso de la IA, hay un temor creciente sobre el uso de estas tecnologías en la **vigilancia financiera**, que podría revelar **conflictos de interés, fraudes o malas prácticas** en el sector financiero.
+
+4. **Estrategias de Control y Regulación**:
+   - Los gobiernos y las élites pueden intentar **regular de manera desproporcionada** la computación cuántica o la IA bajo el pretexto de proteger la seguridad nacional o la privacidad, cuando en realidad buscan mantener el **estatus quo financiero** y evitar la exposición de actividades ilícitas.
+   - Un ejemplo de esto podría ser la introducción de regulaciones que limiten el uso de tecnologías cuánticas en la criptografía, o la creación de marcos legales que controlen el acceso a IA avanzada en sectores sensibles, argumentando preocupaciones de privacidad, cuando en realidad buscan **retener el control** sobre flujos de capital y datos.
+
+5. **El Caso de las Criptomonedas y los Pagos Descentralizados**:
+   - Las criptomonedas han sido adoptadas por muchos como una forma de mantener **privacidad financiera**, pero si tecnologías cuánticas pudieran romper las criptografías que protegen las carteras de criptomonedas, aquellos con grandes cantidades de capital en monedas como Bitcoin podrían sentirse amenazados.
+   - Esta situación podría desencadenar un esfuerzo por parte de estos individuos o instituciones para **detener o ralentizar el avance cuántico**, a menos que se desarrollen nuevos sistemas de criptografía **cuánticamente seguros**.
+
+---
+
+### **Posibles Consecuencias de Oponer Resistencia a la Innovación Tecnológica**:
+
+1. **Estancamiento Tecnológico**:
+   - Si los avances en IA y computación cuántica son bloqueados o regulados excesivamente, podría ocurrir un **estancamiento tecnológico** que afecte negativamente a la innovación en otros campos. Por ejemplo, la **medicina cuántica**, el **descubrimiento de nuevos materiales** o la **optimización de sistemas** que podrían beneficiarse de la computación cuántica también se verían afectados.
+
+2. **Competencia Global**:
+   - Restringir la innovación puede llevar a que otros países más abiertos a estas tecnologías, como China o ciertas naciones de la Unión Europea, **tomen la delantera en la carrera tecnológica**, mientras los países que intentan frenar estos avances se queden rezagados.
+   - En lugar de proteger la privacidad, estas restricciones podrían llevar a una **pérdida de competitividad global** y dejar expuestos los sistemas financieros ante tecnologías avanzadas desarrolladas en otras partes del mundo.
+
+3. **Desigualdad en el Acceso a la Tecnología**:
+   - Aquellos con mayores recursos podrían continuar **desarrollando y utilizando** tecnologías avanzadas, como IA o computación cuántica, en un ámbito privado, mientras que el público en general y los pequeños negocios quedarían **excluidos** del acceso a estos avances, ampliando la **brecha tecnológica**.
+   - Grandes corporaciones podrían invertir en **sistemas cuánticos seguros** mientras los sistemas públicos y pequeños actores económicos quedarían vulnerables a futuros ataques o a la obsolescencia tecnológica.
+
+---
+
+### **Conclusión**
+
+El conflicto de interés entre la innovación tecnológica y la **confidencialidad financiera** es una **realidad latente** que podría obstaculizar el progreso en áreas clave como la **computación cuántica** y la **inteligencia artificial**. Aquellos que temen que estas tecnologías expongan transacciones financieras y prácticas ilegales pueden tratar de frenar su avance, lo que plantea un dilema entre la **protección de la privacidad** y la **adopción de tecnologías disruptivas**. Sin embargo, resistir la innovación puede tener consecuencias negativas a largo plazo, tanto en términos de **competitividad global** como de **progreso social** y **científico**. La clave está en encontrar un equilibrio entre la privacidad y el avance tecnológico, asegurando que los beneficios de la IA y la computación cuántica se distribuyan de manera justa y ética.
 
 ## **Visión**
 
